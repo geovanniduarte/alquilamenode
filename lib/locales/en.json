@@ -1,1 +1,11 @@
-{}
+{
+    "ERR_USER_NOT_FOUND" : "user not found",
+    "ERR_NO_TOKEN" : "not toked supplied",
+    "ERR_TOKEN" : "token error",
+    "ERR_NOT_CREDENTIALS" : "not credentials supplied",
+    "ERR_USER_INVALID_PASS" : "invalid password.",
+    "ERR_PAGE_NOT_FOUND":"page not found",
+    "ERR_NOT_SAVED":"could not be saved",
+    "ERR_AUTH_BAD_REQUEST":"wrong request to authenticate"
+
+}

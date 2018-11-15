@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+const CustomError = require('./lib/CustomError');
 
 require('./lib/ConnectMongoose');
 var i18n = require('./lib/Inter');
@@ -40,7 +41,7 @@ app.use('/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  var err = new Error('Not Found');
+  var err = new CustomError('ERR_PAGE_NOT_FOUND');
   err.status = 404;
   next(err);
 });

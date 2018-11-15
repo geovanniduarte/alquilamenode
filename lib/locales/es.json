@@ -1,1 +1,11 @@
-{}
+{
+    "ERR_PAGE_NOT_FOUND":"pagina no encontrada",
+    "ERR_USER_NOT_FOUND" : "usuario no encontrado",
+    "ERR_NO_TOKEN" : "no hubo token",
+    "ERR_TOKEN" : "error de token",
+    "ERR_NOT_CREDENTIALS" : "no hay credenciales",
+    "ERR_USER_INVALID_PASS" : "contrasena invalida",
+    "ERR_NOT_SAVED":"no se pudo guardar",
+    "ERR_AUTH_BAD_REQUEST":"solicitud erronea al autenticar"
+
+}
