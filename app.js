@@ -10,7 +10,7 @@ var users = require('./routes/users');
 
 require('./lib/ConnectMongoose');
 var i18n = require('./lib/Inter');
-
+console.log("cargado app.js");
 var app = express();
 
 // view engine setup
